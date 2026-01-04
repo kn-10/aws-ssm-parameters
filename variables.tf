@@ -9,7 +9,7 @@ variable "parameters" {
   }
 }
 
-## Note: In organizations we dont keep passwords in git repository at any cpst
+## Note: In organizations we don't keep passwords in git repository at any cpst
 variable "secrets" {
   default = {
     "dev.expense.rds.password" = "ExpenseApp123"
