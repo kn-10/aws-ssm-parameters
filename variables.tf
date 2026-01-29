@@ -7,20 +7,20 @@ variable "parameters" {
     "dev.expense.rds.username"              = "admin1"
     "dev.expense.rds.endpoint"              = "dev-expense-rds.ca1a4y2cuoey.us-east-1.rds.amazonaws.com"
     "dev.expense.frontend.backend_endpoint" = "https://backend-dev.kdevops.online/"
-    "expense.newrelic.account"              = "7649078"
+    "newrelic.account"                      = "7649078"
   }
 }
 
 ## Note: In organizations we don't keep passwords in git repository at any cpst
 variable "secrets" {
   default = {
-    "dev.expense.rds.password" = "ExpenseApp123"
-    "ssh.password"             = "DevOps321"
-    "ssh.username"             = "centos"
-    "ses.username"             = "AKIAVLAKGWT6AV277TWX"
-    "ses.password"             = "BCdJN2ZbQErs41ZSlRuiMp0wk4FCkT5M7tD31+VzDjbl"
-    "grafana.apikey"           = "glsa_vsVzPHhmFhjSwZWqfj19iMCJIq2rwjzA_a45be7d2"
-    "expense.newrelic.key"     = "NRAK-ZD1XNOBKSEGBDNWD2KHGUL2JVIR"
+    "dev.expense.rds.password"          = "ExpenseApp123"
+    "ssh.password"                      = "DevOps321"
+    "ssh.username"                      = "centos"
+    "ses.username"                      = "AKIAVLAKGWT6AV277TWX"
+    "ses.password"                      = "BCdJN2ZbQErs41ZSlRuiMp0wk4FCkT5M7tD31+VzDjbl"
+    "grafana.apikey"                    = "glsa_vsVzPHhmFhjSwZWqfj19iMCJIq2rwjzA_a45be7d2"
+    "dev.expense.frontend.newrelic.key" = "NRAK-ZD1XNOBKSEGBDNWD2KHGUL2JVIR"
   }
 }
 
