@@ -25,8 +25,8 @@ variable "secrets" {
     "dev.expense.frontend.newrelic.key" = "NRAK-ZD1XNOBKSEGBDNWD2KHGUL2JVIR"
     "dev.expense.backend.newrelic.key"  = "413d2388ea45416359eb026782087a44FFFFNRAL"
     "elasticsearch.password"            = "rLRyYZ=hiTQhM37k1whp"
-    "artifactory_user"                  = "admin"
-    "artifactory_password"              = "Admin123"
+    "artifactory.user"                  = "admin"
+    "artifactory.password"              = "Admin123"
   }
 }
 
