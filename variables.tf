@@ -24,7 +24,7 @@ variable "secrets" {
     "grafana.apikey"                    = "glsa_uofvreAAKcDSZcrD2IYh7b967M72obgp_cd298dc1"
     "dev.expense.frontend.newrelic.key" = "NRAK-ZD1XNOBKSEGBDNWD2KHGUL2JVIR"
     "dev.expense.backend.newrelic.key"  = "413d2388ea45416359eb026782087a44FFFFNRAL"
-    "elasticsearch.password"            = "2-djhAKjES34JYLPKTAq"
+    "elasticsearch.password"            = "ZkZNxME6+TpLsU-+1e4S"
     "artifactory.user"                  = "admin"
     "artifactory.password"              = "Admin123"
   }
