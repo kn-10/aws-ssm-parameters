@@ -36,16 +36,16 @@ variable "secrets" {
     "artifactory.password"              = "Admin123"
 
     "prod.expense.rds.password"          = "ExpenseApp123"
-    "ssh.password"                      = "DevOps321"
-    "ssh.username"                      = "centos"
-    "ses.username"                      = "AKIAVLAKGWT6AV277TWX"
-    "ses.password"                      = "BCdJN2ZbQErs41ZSlRuiMp0wk4FCkT5M7tD31+VzDjbl"
-    "grafana.apikey"                    = "glsa_uofvreAAKcDSZcrD2IYh7b967M72obgp_cd298dc1"
+    "ssh.password"                       = "DevOps321"
+    "ssh.username"                       = "centos"
+    "ses.username"                       = "AKIAVLAKGWT6AV277TWX"
+    "ses.password"                       = "BCdJN2ZbQErs41ZSlRuiMp0wk4FCkT5M7tD31+VzDjbl"
+    "grafana.apikey"                     = "glsa_uofvreAAKcDSZcrD2IYh7b967M72obgp_cd298dc1"
     "prod.expense.frontend.newrelic.key" = "NRAK-ZD1XNOBKSEGBDNWD2KHGUL2JVIR"
     "prod.expense.backend.newrelic.key"  = "413d2388ea45416359eb026782087a44FFFFNRAL"
-    "elasticsearch.password"            = "ZkZNxME6+TpLsU-+1e4S"
-    "artifactory.user"                  = "admin"
-    "artifactory.password"              = "Admin123"
+    "elasticsearch.password"             = "ZkZNxME6+TpLsU-+1e4S"
+    "artifactory.user"                   = "admin"
+    "artifactory.password"               = "Admin123"
   }
 }
 
