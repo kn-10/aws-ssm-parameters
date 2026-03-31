@@ -46,6 +46,15 @@ variable "secrets" {
     "elasticsearch.password"             = "ZkZNxME6+TpLsU-+1e4S"
     "artifactory.user"                   = "admin"
     "artifactory.password"               = "Admin123"
+
+
+    ## RoboShop Project
+    "dev.roboshop.rds.username"          = "admin1"
+    "dev.roboshop.rds.password"          = "RoboShop12345"
+    "dev.roboshop.docdb.username"        = "admin1"
+    "dev.roboshop.docdb.password"        = "RoboShop12345"
+    "dev.roboshop.rabbitmq.username"     = "roboshop"
+    "dev.roboshop.rabbitmq.password"     = "roboshop123"
   }
 }
 
