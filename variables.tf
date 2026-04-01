@@ -4,19 +4,22 @@ variable "key_id" {
 
 variable "parameters" {
   default = {
-    "dev.expense.rds.username"              = "admin1"
-    "dev.expense.rds.endpoint"              = "dev-expense-rds.ca1a4y2cuoey.us-east-1.rds.amazonaws.com"
-    "dev.expense.frontend.backend_endpoint" = "https://backend-dev.kdevops.online/"
-    "newrelic.account"                      = "7649078"
-    "dev.expense.frontend.app_version"      = "1.0.1"
-    "dev.expense.backend.app_version"       = "1.0.1"
+    "dev.expense.rds.username"               = "admin1"
+    "dev.expense.rds.endpoint"               = "dev-expense-rds.ca1a4y2cuoey.us-east-1.rds.amazonaws.com"
+    "dev.expense.frontend.backend_endpoint"  = "https://backend-dev.kdevops.online/"
+    "newrelic.account"                       = "7649078"
+    "dev.expense.frontend.app_version"       = "1.0.1"
+    "dev.expense.backend.app_version"        = "1.0.1"
 
     "prod.expense.rds.username"              = "admin1"
     "prod.expense.rds.endpoint"              = "prod-expense-rds.ca1a4y2cuoey.us-east-1.rds.amazonaws.com"
     "prod.expense.frontend.backend_endpoint" = "https://backend-prod.kdevops.online/"
-    "newrelic.account"                      = "7649078"
+    "newrelic.account"                       = "7649078"
     "prod.expense.frontend.app_version"      = "1.0.1"
     "prod.expense.backend.app_version"       = "1.0.1"
+
+    ## RoboShop Project
+    "dev.roboshop.docdb.endpoint"            = "dev-roboshop-docdb.cluster-ca1a4y2cuoey.us-east-1.docdb.amazonaws.com"
   }
 }
 
