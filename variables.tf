@@ -23,6 +23,9 @@ variable "parameters" {
     "dev.roboshop.catalogue.MONGO_URL"       = "mongodb://admin1:RoboShop12345@dev-roboshop-docdb.cluster-ca1a4y2cuoey.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false"
     "dev.roboshop.user.MONGO_URL"            = "mongodb://admin1:RoboShop12345@dev-roboshop-docdb.cluster-ca1a4y2cuoey.us-east-1.docdb.amazonaws.com:27017/users?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false"
     "dev.roboshop.user.REDIS_HOST"           = "dev-roboshop-elasticache.kbwgpw.0001.use1.cache.amazonaws.com"
+    "dev.roboshop.cart.REDIS_HOST"           = "dev-roboshop-elasticache.kbwgpw.0001.use1.cache.amazonaws.com"
+    "dev.roboshop.cart.CATALOGUE_HOST"       = "catalogue"
+    "dev.roboshop.cart.CATALOGUE_PORT"       = "80"
   }
 }
 
