@@ -28,7 +28,7 @@ variable "parameters" {
     "dev.roboshop.cart.CATALOGUE_PORT"       = "80"
     "dev.roboshop.shipping.CART_ENDPOINT"    = "cart"
     "dev.roboshop.shipping.DB_HOST"          = "dev-mysql-rds.ca1a4y2cuoey.us-east-1.rds.amazonaws.com"
-    "dev.roboshop.rds.endpoint"          = "dev-mysql-rds.ca1a4y2cuoey.us-east-1.rds.amazonaws.com"
+    "dev.roboshop.rds.endpoint"              = "dev-mysql-rds.ca1a4y2cuoey.us-east-1.rds.amazonaws.com"
   }
 }
 
