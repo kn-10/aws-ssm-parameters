@@ -43,7 +43,6 @@ variable "parameters" {
 
 ## Note: In organizations we don't keep passwords in git repository at any cpst
 variable "secrets" {
-  sensitive = true # This prevents the values from being printed in the CLI
   default = {
     "dev.expense.rds.password"          = "ExpenseApp123"
     "ssh.password"                      = "DevOps321"

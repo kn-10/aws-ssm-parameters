@@ -7,7 +7,7 @@ resource "aws_ssm_parameter" "parameters" {
 }
 
 resource "aws_ssm_parameter" "secrets" {
-  for_each = toset(keys(nonsensitive(var.secrets)))
+  for_each = var.secrets
   name  = each.key
   type  = "SecureString"
   value = each.value
